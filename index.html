@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link id="mystylesheet" rel="stylesheet" href="/css/style-light.css">
     <title>Switch User</title>
 </head>
 <body>
@@ -19,8 +19,8 @@
             </div>
             <hr>
             <div class="box__btn">
-                  <button class="box__btn--dark">dark mode</button>
-            <button class="box__btn--light">light mode</button>
+                  <button class="box__btn--dark" onclick="swapStyle('style-dark.css')">dark mode</button>
+            <button class="box__btn--light" onclick="swapStyle('style-light.css')">light mode</button>
             </div>
           
 
